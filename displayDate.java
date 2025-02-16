@@ -7,5 +7,9 @@ public class displayDate{
 
         //Displaying the current date
         System.out.println("Current Date: " + LocalDate.now());
+
+        //Displaying free memory
+        long freeMemory = Runtime.getRuntime().freeMemory();
+        System.out.println("Free momory " + freeMemory + "bytes");
     }
 }
